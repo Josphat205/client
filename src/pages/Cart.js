@@ -3,6 +3,7 @@ import CartCard from "../components/CartCard";
 import { useSelector } from "react-redux";
 import EmptyImg  from "../assets/empty-cart.gif";
 import PaymentButton from "../components/PaymentButton";
+import MpesaButton from "../components/MpesaButton";
 const Cart = () => {
   const cartItems = useSelector(state => state.products.cartItems);
   const totalP= cartItems.reduce((acc, item) => acc + parseInt(item.total), 0);
@@ -49,6 +50,7 @@ const Cart = () => {
         </div>
        <>
         <PaymentButton cartItems = {cartItems} userId ={userId} />
+        <MpesaButton/>
        </>
       </div>
       </div>  

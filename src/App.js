@@ -12,6 +12,7 @@ import Cart from "./pages/Cart";
 import PrivateRoute from "./pages/privateRoute/PrivateRoute";
 import Success from "./pages/success";
 import NotFound from "./pages/NotFound";
+import Mpesa from "./pages/Mpesa";
 function App() {
   return (
     <div className="App bg-slate-300 min-h-[100vh] ">
@@ -31,6 +32,7 @@ function App() {
         <Route path="/new-product" element={<NewProduct />} />
         <Route path="/product/:id" element={<SingleProduct />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/m-pesa" element={<Mpesa />} />
         <Route path="/success" element={<Success />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

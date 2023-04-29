@@ -48,6 +48,9 @@ const productsSlice = createSlice({
         state.cartItems[index].total =
           state.cartItems[index].quantity * state.cartItems[index].price;
       }
+    },
+    getCartItems(state) {
+      state.cartItems = [...state.cartItems];
     }
   }
 });
@@ -58,7 +61,8 @@ export const {
   addCartItems,
   deleteCartItem,
   incrementQuantity,
-  decrementQuantity
+  decrementQuantity,
+  getCartItems
 } = productsSlice.actions;
 
 export default productsSlice.reducer;
