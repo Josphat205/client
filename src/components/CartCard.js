@@ -29,7 +29,7 @@ const CartCard = ({
       <div className="justify-between mb-1 rounded-lg bg-white p-1 shadow-md sm:flex sm:justify-start">
         <img
           src={image}
-          className="w-full md:max-h-32 max-h-64 rounded-lg sm:w-40 scale-75"
+          className="w-full md:max-h-32 max-h-72 rounded-lg sm:w-40 scale-50"
           alt=""
         />
         <div className="sm:ml-4 sm:flex sm:w-full sm:justify-between items-center">
