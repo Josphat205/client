@@ -1,3 +1,3 @@
-const Url = "http://localhost:5000";
+const Url = "https://ecomm-server-nine.vercel.app/";
 
 export default Url;
