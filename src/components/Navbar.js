@@ -102,7 +102,7 @@ export default function Navbars() {
           >
             <div
               onClick={handleShowNav}
-              className="flex flex-col max-h-16 rounded-md "
+              className="flex flex-col max-h-16 rounded-md z-40 "
             >
              
               {cookies.token
