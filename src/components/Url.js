@@ -1,3 +1,3 @@
-const Url = "https://ecomm-server-nine.vercel.app/";
+const Url = "https://ecomm-server-nine.vercel.app";
 
 export default Url;
