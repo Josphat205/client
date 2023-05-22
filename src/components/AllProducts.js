@@ -58,7 +58,7 @@ const AllProducts = ({ title1, title2, width }) => {
           scale: [0, 1]
         }}
         transition={{ duration: 0.5 }}
-        className="flex flex-wrap justify-center md:gap-3"
+        className="flex flex-wrap justify-center gap-2 md:gap-3"
       >
         {filterdProducts[0]
           ? filterdProducts.map(product =>
